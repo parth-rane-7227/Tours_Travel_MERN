@@ -40,7 +40,7 @@ const handleChange=(event)=>{
     var formBasicEmail = ref3.current.value
     var formBasicPassword = ref4.current.value
     //var formBasicGuest = ref1.current.value
-    var tformBasicDate = ref5.current.value
+    var formBasicDate = ref5.current.value
     //var formBasicLocation = ref6.current.value
     //console.log(fullName, formBasicEmail)
     const userData = { fullName, formBasicEmail, formBasicPassword, formBasicGuest, formBasicDate}
