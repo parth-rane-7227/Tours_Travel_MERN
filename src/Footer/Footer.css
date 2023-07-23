@@ -1,0 +1,74 @@
+.logo1{
+    width: 50%;
+    height: 80%;
+    /* border: 5px solid white; */
+    border-radius: 350px;
+}
+.logo1:hover{
+
+    transform: scale(1.1);
+}
+.shad{
+    display:block;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #f09433;
+}
+.all:hover{
+    color: black;
+}
+.all1{
+    margin-left: -20px;
+}
+.all11{
+    margin-left: -10px;
+}
+.insta:hover{
+    color: black;
+    transform: scale(1.5);
+}
+.insta1:hover{
+    color: black;
+}
+.insta1{
+    background-color: #f095332f;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 3px;
+}
+.insta1 span{
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.git:hover{
+    color: black;
+    transform: scale(1.5);
+}  
+.face:hover{
+    color:blue ;
+    transform: scale(1.5);
+}
+.yt:hover{
+    color: #f00000;
+    transform: scale(1.5);
+}
+.ss:hover{
+    color: #f09433;
+    transform: scale(1.5);
+}
+
+.textf{
+    font-size: 23px;
+}
+.lotext{
+    color: white;
+    text-decoration: none !important;
+    display:inline-block;
+}
+.lotext:hover{
+    color: black;
+}
+.instaicon:hover{
+    color: purple;
+}
+

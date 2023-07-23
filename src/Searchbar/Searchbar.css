@@ -1,0 +1,32 @@
+.searchd{
+    background-color: white;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    box-shadow: 1px 5px 5px rgba(7, 7, 7, 0.468);
+}
+.divinput input{
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+}
+.logol:hover{
+    color: #f09433;
+    transform: scale(1.5);
+}
+.search{
+    font-size: 40px;
+    border: none;
+    padding: 0px;
+}
+.searchicon{
+    justify-content: center;
+    border-radius: 250px;
+    padding: 2px;
+    color: white;
+    background-color: #f09433;
+    font-size: 50px;
+    margin-left: -30px; 
+}
+.searchicon:hover{
+    cursor: pointer;
+}

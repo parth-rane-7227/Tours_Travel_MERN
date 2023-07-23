@@ -1,0 +1,27 @@
+.serviceitem{
+    padding: 1rem;
+    border-bottom: 1px solid rgba(7, 7, 7, 0.468);
+    border-right:1px solid rgba(7, 7, 7, 0.468);
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px rgba(7, 7, 7, 0.468);
+    width: 120%;
+
+    }
+.serviceimg{
+ display: flex;
+ width: 50px;
+ height: 50px;
+ align-items: center;
+ justify-content: center;
+ border-radius: 50px;
+ padding: 0.5rem;
+ margin-bottom: 1rem;
+ line-height: 50px;
+}
+.serviceimg img{
+    width: 300%;
+}
+.serviceitem h5{
+    font-size: 1.1rem;
+    font-weight: 500;
+}

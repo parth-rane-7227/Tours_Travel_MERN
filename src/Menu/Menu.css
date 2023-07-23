@@ -1,0 +1,58 @@
+.Butt{
+    border-radius: 30px !important;
+    background-color: #F9A826 !important;
+    font-weight: 500 !important;
+}
+.text{
+    font-size: 19px;
+    font-weight: 600 !important;
+    color: black !important;
+    margin-top: 15px;
+}.hn:hover{
+    text-decoration: underline #FFBD4A 4px;
+}
+.an:hover{
+    text-decoration: underline #FFBD4A 4px;
+}
+.tn:hover{
+    text-decoration: underline #FFBD4A 4px;
+}
+.ln:hover{
+    text-decoration: underline #FFBD4A 4px;
+}
+.hn{
+    color: black !important;
+    font-size: 18px !important;
+}
+.an{
+    color: black !important;
+    font-size: 18px !important;
+}
+.tn{
+    color: black !important;
+    font-size: 18px !important;
+}
+.ln{
+    color: black !important;
+    font-size: 18px !important;
+}
+.logo{
+    width: 70px;
+    height: 70px ;
+    padding: 0% !important;
+}
+.Nav1{
+    background-color: white;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.473);
+    justify-content: center;
+}
+.menuItems{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    border: 1px solid black;
+    gap: 30px;
+}
+.item{
+    justify-items: center;
+}

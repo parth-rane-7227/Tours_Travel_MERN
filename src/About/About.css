@@ -1,0 +1,162 @@
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive video container */
+    margin: 0;
+    overflow: hidden;
+ 
+  }
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:fit-content;
+    height:100%;
+    object-fit:cover;
+    z-index: -1;
+    bottom: 0;
+    border-bottom-right-radius: 30px;
+    margin: 0;
+    padding: 0;
+    
+  }
+.video-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-items: center;
+    color: black;
+    z-index: 1;
+  }
+.video-content h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  /* Meet Our Team section */
+.team-member {
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 20px;
+    border: 2px solid white;
+    
+  }
+  
+  .meg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid rgba(7, 7, 7, 0.468);
+    box-shadow: 1px 5px 5px rgba(7, 7, 7, 0.468);
+  }
+  .meg1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid rgba(7, 7, 7, 0.468);
+    box-shadow: 1px 5px 5px rgba(7, 7, 7, 0.468);
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    margin: 0;
+  }
+.Meeth1{
+    font-size: 2.6rem;
+    font-weight: 500;
+    color: black;
+    padding: 30px;
+}
+ul{
+    text-align: justify;
+}
+.pjs{
+    text-align: justify;
+}
+/* Our Top Tours section */
+#Gal1,
+#Gal2,
+#Gal3 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border: 2px solid white;
+  box-shadow: 1px 5px 5px rgba(7, 7, 7, 0.468);
+}
+.SectionMeet{
+  border: 2px solid white;
+  box-shadow: 1px 4px 5px rgba(7, 7, 7, 0.468);
+}
+.sectionFooter{
+  padding: 20px;
+}
+.Designli{
+  font-size: 20px;
+  font-weight: 400;
+  font-family:cursive;
+}
+.DesignSpan{
+  color: #f09433;
+  font-weight: bolder;
+}
+.gallery{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: slid 20s linear infinite;
+  &:hover{
+    animation-play-state: paused;
+  }
+}
+.gallery span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+}
+.gallery span img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: 2s;
+  border: 1px solid rgb(255, 255, 255, 0.20);
+}
+.gallery span:hover img{
+  filter: grayscale(1);
+}
+@keyframes slid{
+ 0%{
+  transform: perspective(1000px) rotateY(0deg);
+ }
+ 100%{
+  transform: perspective(1000px) rotateY(360deg);
+ } 
+}
+.body1{
+  margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-bottom: 10%;
+    background: -webkit-linear-gradient(to right, #2c5364,#203a43,#0f2027);
+    overflow: hidden;
+}

@@ -1,0 +1,19 @@
+.respon:hover{
+    filter: brightness(100%);
+    transform: scale(0.9);
+}
+.respon1:hover{
+    filter: brightness(100%);
+    transform: scale(0.9);
+}
+.respon{
+    transition: transform 0.5s, filter 0.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+}
+.respon1{
+    transition: transform 0.5s, filter 0.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+    box-shadow: 1px 5px 5px rgba(7, 7, 7, 0.468);
+}

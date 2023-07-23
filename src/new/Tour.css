@@ -1,0 +1,39 @@
+.m2{
+    background-image:url("../images/tour4.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: block;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 1px 5px 5px rgba(7, 7, 7, 0.468);
+
+    
+}
+ .n2{
+    text-align: center;
+    padding-top: 150px;
+    /* margin: 100px;
+    width:1500px; */
+}
+.usertour{
+    height: 250px !important;
+}
+
+.usertours{
+    height: 250px !important;
+}
+.s1{
+    box-shadow: 1px 5px 5px rgba(7, 7, 7, 0.468);
+    border-bottom-left-radius: 10px;
+}
+Button{
+    background-color: #f09433 !important;
+    color: white !important;
+}
+.card1{
+    box-shadow: 1px 5px 5px rgba(7, 7, 7, 0.468);
+}
