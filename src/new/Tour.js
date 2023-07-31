@@ -45,7 +45,7 @@ export const Tour = () => {
         <Row>
           <Col lg="12 mb-4 mt-3">
             <div>
-              <h1>Our Tours</h1>
+              <h1>Our Tour</h1>
             </div>
           </Col>
         </Row>
