@@ -111,7 +111,7 @@ export const Footer = () => {
           </Col>
           <Col>
             <Col className="mb-3 textf mt-3">
-              <b>Contacts</b>
+              <b>Contact</b>
             </Col>
             <Row className="mb-3">
               <Col className="all">
